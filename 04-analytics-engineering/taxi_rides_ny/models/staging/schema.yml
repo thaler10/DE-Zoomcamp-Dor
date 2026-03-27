@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: staging
+    database: project-8406299b-edd5-44e0-92b 
+    schema: nytaxi
+    tables:
+      - name: green_tripdata
+      - name: yellow_tripdata
+      - name: fhv_tripdata
