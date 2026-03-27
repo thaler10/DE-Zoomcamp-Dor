@@ -1,0 +1,15 @@
+name: 'taxi_rides_ny'
+version: '1.0.0'
+config-version: 2
+
+profile: 'default'
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+
+models:
+  taxi_rides_ny:
+    staging:
+      materialized: view
