@@ -1,8 +1,0 @@
-services:
-  de-zoomcamp-env:
-    build: .
-    volumes:
-      - .:/app
-      - ../keys:/app/keys
-    environment:
-      - GOOGLE_APPLICATION_CREDENTIALS=/app/keys/gcs.json
